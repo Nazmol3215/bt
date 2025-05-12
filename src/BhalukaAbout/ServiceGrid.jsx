@@ -114,9 +114,9 @@ const EnhancedServiceGrid = () => {
       </div>
 
       {/* মোট সংখ্যা */}
-      <p className="text-center mb-4" style={{ color: darkMode ? '#ccc' : '#333' }}>
+      {/* <p className="text-center mb-4" style={{ color: darkMode ? '#ccc' : '#333' }}>
         মোট সেবা: <strong>{filteredServices.length}</strong>
-      </p>
+      </p> */}
 
       {/* ✅ সার্ভিস গ্রিড */}
       <div className="row">

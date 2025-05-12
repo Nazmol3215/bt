@@ -42,14 +42,14 @@ const ProfileCard = ({ name, mobile, email, location }) => {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    border: '1px solid #ddd',
+    border: '13px solid #ddd',
     borderRadius: '10px',
     padding: '20px',
     width: '300px',
     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
     backgroundColor: '#f9f9f9',
     fontFamily: 'Arial, sans-serif',
-    margin: '10px',
+    margin: '140px',
   };
 
   return (

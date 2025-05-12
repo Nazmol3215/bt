@@ -61,12 +61,15 @@ import Hotel_1 from "./Hotel/Hotel_1";
 import TeacherForm from "./Tuition/TeacherForm";
 import TeacherList from "./Tuition/TeacherList";
 import TeacherList_1 from "./Tuition/TeacherList_1";
+import Olama_1 from "./Olama/Olama_1";
+
 
 export default function Router() {
   return (
     <>
     <BrowserRouter>
     <Routes>
+      <Route path="Olama_1" element={<Olama_1 />} />
       <Route path="TeacherList_1" element={<TeacherList_1 />} />
       <Route path="TeacherList" element={<TeacherList />} />
       <Route path="TeacherForm" element={<TeacherForm />} />

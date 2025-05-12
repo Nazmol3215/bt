@@ -40,7 +40,7 @@ const EnhancedServiceGrid = () => {
         backgroundColor: darkMode ? '#1e1e1e' : '#f8f9fa',
         minHeight: '100vh',
         transition: 'all 0.3s ease',
-        padding: '10px',
+        padding: '1px',
       }}
     >
       {/* 🟨 Hero Section */}
@@ -57,7 +57,7 @@ const EnhancedServiceGrid = () => {
         }}
       >
         <h2 style={{ fontWeight: 'bold', fontSize: '22px', marginBottom: '10px' }}>
-          স্মার্ট ভালুকায় আপনাকে স্বাগতম 🌟
+          স্মার্ট ভালুকায় স্বাগতম 🌟
         </h2>
         <input
           type="text"
@@ -73,11 +73,11 @@ const EnhancedServiceGrid = () => {
             boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
             backgroundColor: darkMode ? '#333' : '#fff',
             color: darkMode ? '#fff' : '#000',
-            marginBottom: '10px',
+            marginBottom: '1px',
           }}
         />
         <br />
-        <Link to="/about">
+        {/* <Link to="/about">
           <button
             style={{
               backgroundColor: darkMode ? '#28a745' : '#007bff',
@@ -93,7 +93,7 @@ const EnhancedServiceGrid = () => {
           >
             আমাদের সম্পর্কে জানুন
           </button>
-        </Link>
+        </Link> */}
       </div>
 
       {/* 🌗 Dark Mode Toggle */}
@@ -157,8 +157,8 @@ const EnhancedServiceGrid = () => {
                     <span
                       style={{
                         position: 'absolute',
-                        top: '8px',
-                        right: '10px',
+                        top: '-2px',
+                        right: '3px',
                         backgroundColor: '#28a745',
                         color: '#fff',
                         fontSize: '10px',

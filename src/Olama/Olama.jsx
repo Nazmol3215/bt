@@ -117,6 +117,34 @@ const Olama = () => {
   return (
     <>
       <div className="text-center mt-3 mb-4">
+     <div
+  style={{
+    maxWidth: "1000px",
+    margin: "30px auto",
+    padding: "20px",
+    background: "#f0fdfa",
+    borderRadius: "16px",
+    boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+    textAlign: "center",
+  }}
+>
+  <h3
+    style={{
+      color: "#005f5f",
+      fontWeight: "700",
+      fontSize: "24px",
+      marginBottom: "20px",
+      fontFamily: "'Noto Sans Bengali', sans-serif",
+      letterSpacing: "0.5px",
+    }}
+  >
+    ইমাম-উলামা পরিষদ মল্লিক বাড়ি শাখা কমিটির সকল সদস্যবৃন্দের পরিচিতি
+  </h3>
+  {/* বাকি JSX কোড */}
+</div>
+
+
+
             <span style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
           মূল পেইজ <Link to="/" style={{ color: "#007bff", textDecoration: "underline" }}>হোম</Link> 
         </span> <br />

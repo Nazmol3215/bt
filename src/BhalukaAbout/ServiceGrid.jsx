@@ -6,7 +6,6 @@ const EnhancedServiceGrid = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   const services = [
-    { name: '👮 উলামা পরিষদ', link: '/Olama_1', desc: 'উলামা মল্লিক বাড়ি শাখা' },
     { name: '🩸 ব্লাড ডোনার', link: '/DonorCard_1', desc: 'রক্তদাতার তালিকা' },
     { name: '🛠️ সকল মিস্ত্রী', link: '/Mestiri_1', desc: 'বিভিন্ন পেশার মিস্ত্রী' },
     { name: '🏠 বাসা ভাড়া', link: '/House_rental_1', desc: 'ভাড়া দেওয়ার জন্য বাসা' },
@@ -40,7 +39,7 @@ const EnhancedServiceGrid = () => {
         backgroundColor: darkMode ? '#1e1e1e' : '#f8f9fa',
         minHeight: '100vh',
         transition: 'all 0.3s ease',
-        padding: '1px',
+        padding: '10px',
       }}
     >
       {/* 🟨 Hero Section */}
@@ -57,7 +56,7 @@ const EnhancedServiceGrid = () => {
         }}
       >
         <h2 style={{ fontWeight: 'bold', fontSize: '22px', marginBottom: '10px' }}>
-          স্মার্ট ভালুকায় স্বাগতম 🌟
+          স্মার্ট ভালুকায় আপনাকে স্বাগতম 🌟
         </h2>
         <input
           type="text"
@@ -73,11 +72,11 @@ const EnhancedServiceGrid = () => {
             boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
             backgroundColor: darkMode ? '#333' : '#fff',
             color: darkMode ? '#fff' : '#000',
-            marginBottom: '1px',
+            marginBottom: '10px',
           }}
         />
         <br />
-        {/* <Link to="/about">
+        <Link to="/about">
           <button
             style={{
               backgroundColor: darkMode ? '#28a745' : '#007bff',
@@ -93,7 +92,7 @@ const EnhancedServiceGrid = () => {
           >
             আমাদের সম্পর্কে জানুন
           </button>
-        </Link> */}
+        </Link>
       </div>
 
       {/* 🌗 Dark Mode Toggle */}
@@ -114,9 +113,9 @@ const EnhancedServiceGrid = () => {
       </div>
 
       {/* মোট সংখ্যা */}
-      {/* <p className="text-center mb-4" style={{ color: darkMode ? '#ccc' : '#333' }}>
+      <p className="text-center mb-4" style={{ color: darkMode ? '#ccc' : '#333' }}>
         মোট সেবা: <strong>{filteredServices.length}</strong>
-      </p> */}
+      </p>
 
       {/* ✅ সার্ভিস গ্রিড */}
       <div className="row">
@@ -157,8 +156,8 @@ const EnhancedServiceGrid = () => {
                     <span
                       style={{
                         position: 'absolute',
-                        top: '-2px',
-                        right: '3px',
+                        top: '8px',
+                        right: '10px',
                         backgroundColor: '#28a745',
                         color: '#fff',
                         fontSize: '10px',
